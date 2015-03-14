@@ -1,3 +1,5 @@
+package com.lsp
+
 /**
  * Created by Administrator on 2015/3/13.
  */
@@ -11,7 +13,11 @@ object Test {
     val list2=Range(1,10,2)
     list2.foreach(println)
 
-
+    // add package
+    val arr=new Array[String](2)
+    arr(0)="this"
+    arr(1)="test"
+    arr.foreach(println)
   }
 }
 
