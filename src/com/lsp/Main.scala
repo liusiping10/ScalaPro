@@ -3,7 +3,7 @@ package com.lsp
 /**
  * Created by Administrator on 2015/3/13.
  */
-object Test {
+object Main {
   def main(args: Array[String]) {
     println("this is a test")
 
@@ -18,6 +18,9 @@ object Test {
     arr(0)="this"
     arr(1)="test"
     arr.foreach(println)
+
+    val arr1=Array(1,2,3,5)
+    println(arr1.length)
   }
 }
 
